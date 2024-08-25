@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon May 11 17:36:10 BRT 2020
+http\://download.java.net/maven/2/.error=
+https\://repository.jboss.org/nexus/content/groups/public-jboss/.lastUpdated=1589227730348
+http\://download.java.net/maven/2/.lastUpdated=1589227729159
+http\://nexus.tjmt.jus.br/repository/maven-public/.lastUpdated=1589229370429

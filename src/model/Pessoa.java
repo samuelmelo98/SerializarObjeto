@@ -3,7 +3,7 @@ package model;
 import java.util.Objects;
 
 public class Pessoa implements java.io.Serializable {
-    private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 2124568974445555665L;
 
     private Integer id;
     private String nome;
@@ -48,13 +48,22 @@ public class Pessoa implements java.io.Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Pessoa pessoa = (Pessoa) o;
-        return id.equals(pessoa.id) &&
-                nome.equals(pessoa.nome) &&
-                sobreNome.equals(pessoa.sobreNome);
+        return id == pessoa.id &&
+                Objects.equals(nome, pessoa.nome) &&
+                Objects.equals(sobreNome, pessoa.sobreNome);
     }
 
     @Override
     public int hashCode() {
         return Objects.hash(id, nome, sobreNome);
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", sobreNome='" + sobreNome + '\'' +
+                '}';
     }
 }

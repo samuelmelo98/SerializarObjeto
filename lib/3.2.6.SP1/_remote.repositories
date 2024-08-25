@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 12 16:49:34 AMST 2021
+jbpm-jpdl-3.2.6.SP1.pom>jboss=
+jbpm-jpdl-3.2.6.SP1.jar>nexusRepoTJMT=
+jbpm-jpdl-3.2.6.SP1-sources.jar>nexusRepoTJMT=
+jbpm-jpdl-3.2.6.SP1.pom>nexusRepoTJMT=
+jbpm-jpdl-3.2.6.SP1-javadoc.jar>nexusRepoTJMT=
+jbpm-jpdl-3.2.6.SP1.jar>jboss=
